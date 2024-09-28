@@ -13,7 +13,7 @@ This solver not only checks rows, columns and boxes, but also checks the possibl
 neighboring boxes among themselves as to further narrow-down which rows and columns in which boxes can have which possible 
 fillers dictated by the possible fillers in neighboring boxes.
 
-This is probably as far as one can go with cold-hard logic, without any trial-and-error involved.
+This is probably as far as I can go, without any trial-and-error involved.
 
 As it uses cold-hard logic, it is more sequential and human-like. If it can't solve an extremely difficult sudoku, it will
 also print out what cells can have what potential numbers.
